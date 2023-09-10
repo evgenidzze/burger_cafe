@@ -72,15 +72,14 @@ WSGI_APPLICATION = 'burgers_cafe.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'burger_cafe',
+        'NAME': 'railway',
         'USER': 'root',
-        'PASSWORD': 'Lbgkjv19',
-        'HOST': 'localhost',
-        'PORT': '3306'
+        'PASSWORD': 'XSjWaticqgdCSwnZaWVB',
+        'HOST': 'containers-us-west-119.railway.app',
+        'PORT': '6484'
     }
 }
 
